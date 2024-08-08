@@ -17,8 +17,8 @@
         android:layout_below="@id/splashImage"
         android:layout_centerHorizontal="true"
         android:text="Bookid"
-        android:textSize="24sp"
+        android:textSize="36sp"
         android:textColor="#575EA2"
         android:paddingTop="16dp"
-        android:fontFamily="@font/"/>
+        android:fontFamily="@font/balooda_regular"/>
 </RelativeLayout>
