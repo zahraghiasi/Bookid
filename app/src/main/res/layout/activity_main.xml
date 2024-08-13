@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_200">
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/bookid_logo" />
+
+    <TextView
+        :fontFamily="@font/madasi"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="10dp"
+        android:layout_toStartOf="@+id/logoImage"
+        android:fontFamily="@font/madasi"
+        android:text="بوکید"
+        android:textColor="@color/purple_500"
+        android:textSize="28sp" />
+
+<!--    <EditText-->
+<!--        android:id="@+id/searchEditText"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/logoImage"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:layout_marginStart="16dp"-->
+<!--        android:layout_marginEnd="16dp"-->
+<!--        android:hint="دنبال چه کتابی می گردی؟"-->
+<!--        android:drawableStart="@android:drawable/ic_menu_search"-->
+<!--        android:background="@android:drawable/editbox_background"-->
+<!--        android:padding="8dp"/>-->
+
+<!--    <GridLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/searchEditText"-->
+<!--        android:layout_marginTop="32dp"-->
+<!--        android:columnCount="2"-->
+<!--        android:rowCount="2"-->
+<!--        android:padding="16dp">-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/category1"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_columnWeight="1"-->
+<!--            android:layout_margin="8dp"-->
+<!--            android:src="@drawable/category1" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/category2"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_columnWeight="1"-->
+<!--            android:layout_margin="8dp"-->
+<!--            android:src="@drawable/category2" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/category3"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_columnWeight="1"-->
+<!--            android:layout_margin="8dp"-->
+<!--            android:src="@drawable/category3" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/category4"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_columnWeight="1"-->
+<!--            android:layout_margin="8dp"-->
+<!--            android:src="@drawable/category4" />-->
+<!--    </GridLayout>-->
+</RelativeLayout>

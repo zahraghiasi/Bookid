@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#9ADDEE">
+    android:background="@color/blue_500">
 
     <ImageView
         android:id="@+id/splashImage"
@@ -18,7 +18,7 @@
         android:layout_centerHorizontal="true"
         android:text="Bookid"
         android:textSize="36sp"
-        android:textColor="#575EA2"
+        android:textColor="@color/purple_500"
         android:paddingTop="16dp"
         android:fontFamily="@font/balooda_regular"/>
 </RelativeLayout>
