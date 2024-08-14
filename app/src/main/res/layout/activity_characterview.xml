@@ -11,17 +11,23 @@
             android:layout_height="wrap_content"
             android:layout_margin="20dp">
 
-           <ImageView
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
+           <ImageButton
+               android:id="@+id/back_btn"
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:contentDescription="@string/back_button"
                android:src="@drawable/backbutton"
-               android:layout_alignParentLeft="true">
-           </ImageView>
-           <ImageView
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
+               android:layout_alignParentStart="true"
+               android:background="?android:attr/selectableItemBackgroundBorderless">
+           </ImageButton>
+           <ImageButton
+               android:id="@+id/next_btn"
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:contentDescription="@string/next_button"
                android:src="@drawable/nextbutton"
-               android:layout_alignParentRight="true"/>
+               android:layout_alignParentEnd="true"
+               android:background="?android:attr/selectableItemBackgroundBorderless" />
         </RelativeLayout>
 
         <FrameLayout
@@ -29,7 +35,7 @@
             android:layout_width="match_parent"
             android:layout_height="400dp"
             android:gravity="center"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="130dp"
             tools:ignore="UselessParent">
 
         <ImageView
@@ -53,13 +59,13 @@
             android:id="@+id/character_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="شازده فرفره"
+            android:text="@string/shazdeh_name"
             android:layout_below="@id/character"
             android:textSize="36dp"
             android:textColor="@color/white"
             android:fontFamily="@font/madasi"
             android:gravity="center"
-            >
+            android:layout_marginTop="20dp">
         </TextView>
         <TextView
             android:layout_width="match_parent"
@@ -69,12 +75,9 @@
             android:layout_marginTop="20dp"
             android:text="@string/shazdeh_details1"
             android:layout_below="@id/character_name"
-            android:textSize="15dp"
+            android:textSize="16dp"
             android:textColor="@color/white"
             android:fontFamily="@font/madasi"
-            android:gravity="center"
-            >
+            android:gravity="center">
         </TextView>
-
-
 </RelativeLayout>

@@ -11,7 +11,6 @@
         android:layout_marginTop="16dp">
 
         <TextView
-            :fontFamily="@font/madasi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="10dp"
@@ -86,6 +85,7 @@
             android:background="?android:attr/selectableItemBackgroundBorderless"
             android:layout_columnWeight="1"
             android:layout_margin="4dp"
+            android:contentDescription="@string/shazdeh_box"
             android:src="@drawable/shazdehbox"/>
 
         <ImageButton
@@ -95,7 +95,8 @@
             android:background="?android:attr/selectableItemBackgroundBorderless"
             android:layout_columnWeight="1"
             android:layout_margin="4dp"
-            android:src="@drawable/ninga_box"
+            android:contentDescription="@string/ninja_box"
+            android:src="@drawable/ninja_box"
             android:paddingTop="18dp"/>
 
         <ImageButton
@@ -105,6 +106,7 @@
             android:background="?android:attr/selectableItemBackgroundBorderless"
             android:layout_columnWeight="1"
             android:layout_margin="4dp"
+            android:contentDescription="@string/motazadha_box"
             android:src="@drawable/motazadha_box"
             android:paddingTop="8dp"/>
 
@@ -115,6 +117,7 @@
             android:background="?android:attr/selectableItemBackgroundBorderless"
             android:layout_columnWeight="1"
             android:layout_margin="4dp"
+            android:contentDescription="@string/fili_box"
             android:src="@drawable/fili_box"/>
     </GridLayout>
 </RelativeLayout>

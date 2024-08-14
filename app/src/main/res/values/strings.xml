@@ -3,4 +3,12 @@
     <string name="shazdeh">Shazdeh</string>
     <string name="background_shadow">background_shadow</string>
     <string name="shazdeh_details1">شازده فرفره کودکی بازیگوش است که در حال یادگیری مهارت‌های زندگی است. با خواندن مجموعه کتاب‌های شازده فرفره همراه ماجراهای بانمک او شوید ...</string>
+    <string name="fili_box">fili_box</string>
+    <string name="motazadha_box">motazadha_box</string>
+    <string name="ninja_box">ninja_box</string>
+    <string name="shazdeh_box">shazdeh_box</string>
+    <string name="shazdeh_name">شازده فرفره</string>
+    <string name="next_button">next_button</string>
+    <string name="back_button">back_button</string>
+    <string name="title_activity_shazde_collections">ShazdeCollectionsActivity</string>
 </resources>

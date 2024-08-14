@@ -26,7 +26,6 @@ class MainActivity : ComponentActivity() {
 
         val charbtn1 = findViewById<ImageButton>(R.id.character1)
         charbtn1.setOnClickListener {
-            Toast.makeText(applicationContext,"You clicked Submit Button.",Toast.LENGTH_SHORT).show()
             startActivity(Intent(this, CharacterView::class.java))
             finish();
         }
