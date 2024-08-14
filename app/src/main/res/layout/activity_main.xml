@@ -79,16 +79,16 @@
         android:rowCount="2"
         android:padding="16dp">
 
-        <ImageView
-            android:id="@+id/category1"
+        <ImageButton
+            android:id="@+id/character1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
             android:layout_margin="4dp"
             android:src="@drawable/shazdehbox"/>
 
-        <ImageView
-            android:id="@+id/category2"
+        <ImageButton
+            android:id="@+id/character2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
@@ -96,8 +96,8 @@
             android:src="@drawable/ninga_box"
             android:paddingTop="18dp"/>
 
-        <ImageView
-            android:id="@+id/category3"
+        <ImageButton
+            android:id="@+id/character3"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
@@ -105,8 +105,8 @@
             android:src="@drawable/motazadha_box"
             android:paddingTop="8dp"/>
 
-        <ImageView
-            android:id="@+id/category4"
+        <ImageButton
+            android:id="@+id/character4"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
