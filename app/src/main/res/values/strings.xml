@@ -11,4 +11,6 @@
     <string name="next_button">next_button</string>
     <string name="back_button">back_button</string>
     <string name="title_activity_shazde_collections">ShazdeCollectionsActivity</string>
+    <string name="book1_name">من نمی‌خوام بخوابم!</string>
+    <string name="book1_image">book1_image</string>
 </resources>
