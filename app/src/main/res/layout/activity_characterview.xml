@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp">
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/backbutton"
+               android:layout_alignParentLeft="true">
+           </ImageView>
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/nextbutton"
+               android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@+id/character"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:gravity="center"
+            android:layout_marginTop="100dp"
+            tools:ignore="UselessParent">
+
+        <ImageView
+            android:layout_width="360dp"
+            android:layout_height="400dp"
+            android:contentDescription="@string/background_shadow"
+            android:src="@drawable/back_shadow"
+            android:layout_gravity="center"
+            android:paddingTop="30dp"
+            />
+        <ImageView
+            android:layout_width="348dp"
+            android:layout_height="380dp"
+            android:contentDescription="@string/shazdeh"
+            android:src="@drawable/shazdeh_v2image1"
+            android:layout_gravity="center"
+            android:paddingBottom="20dp"/>
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/character_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="شازده فرفره"
+            android:layout_below="@id/character"
+            android:textSize="36dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/madasi"
+            android:gravity="center"
+            >
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/shazdeh_details1"
+            android:layout_below="@id/character_name"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/madasi"
+            android:gravity="center"
+            >
+        </TextView>
+
+
+</RelativeLayout>
