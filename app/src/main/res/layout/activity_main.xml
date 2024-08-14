@@ -83,6 +83,7 @@
             android:id="@+id/character1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
             android:layout_columnWeight="1"
             android:layout_margin="4dp"
             android:src="@drawable/shazdehbox"/>
@@ -91,6 +92,7 @@
             android:id="@+id/character2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
             android:layout_columnWeight="1"
             android:layout_margin="4dp"
             android:src="@drawable/ninga_box"
@@ -100,6 +102,7 @@
             android:id="@+id/character3"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
             android:layout_columnWeight="1"
             android:layout_margin="4dp"
             android:src="@drawable/motazadha_box"
@@ -109,6 +112,7 @@
             android:id="@+id/character4"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
             android:layout_columnWeight="1"
             android:layout_margin="4dp"
             android:src="@drawable/fili_box"/>
