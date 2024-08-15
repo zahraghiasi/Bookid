@@ -82,4 +82,8 @@ dependencies {
     implementation(libs.androidx.activity.ktx)
     implementation(libs.androidx.runtime.android)
     implementation(libs.androidx.appcompat)
+    //Dependence for AR core sceneform
+    implementation("com.google.ar.sceneform:sceneform:1.10.0")
+    implementation("com.google.ar.sceneform:sceneform-ux:1.10.0")
+    implementation("com.google.ar:core:1.31.0")
 }
