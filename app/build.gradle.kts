@@ -63,6 +63,8 @@ dependencies {
     implementation(libs.androidx.activity.ktx)
     implementation(libs.androidx.runtime.android)
     implementation(libs.androidx.appcompat)
+    implementation(libs.androidx.media3.common)
+    implementation(libs.app.update.ktx)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -82,4 +84,5 @@ dependencies {
     implementation(libs.androidx.activity.ktx)
     implementation(libs.androidx.runtime.android)
     implementation(libs.androidx.appcompat)
+    implementation("com.google.ar:core:1.45.0")
 }

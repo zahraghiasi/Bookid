@@ -1,0 +1,3 @@
+mainpage|C:\Users\HP\AndroidStudioProjects\Bookid\app\src\main\assets/man-nemikham-bekhabam.jpg|0.15
+firstpage|C:\Users\HP\AndroidStudioProjects\Bookid\app\src\main\assets/man-nemikham-bekhabam-1.jpg|0.15
+secondpage|C:\Users\HP\AndroidStudioProjects\Bookid\app\src\main\assets/man-nemikham-bekhabam-2.jpg|0.15
