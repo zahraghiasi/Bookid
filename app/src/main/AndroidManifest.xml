@@ -38,7 +38,7 @@
         </activity>
         <activity android:name=".MainActivity" />
         <activity android:name=".CharacterView"/>
-        <activity android:name=".ARCamera"
+        <activity android:name=".ARCameraActivity"
             android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize"
             android:theme="@style/Theme.AppCompat.NoActionBar"/>
 
