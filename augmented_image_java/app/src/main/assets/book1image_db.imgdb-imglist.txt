@@ -1,0 +1,5 @@
+0.jpg|C:\Me\SBU\Project\Bookid\assets\Images\book1/0.jpg
+1.jpg|C:\Me\SBU\Project\Bookid\assets\Images\book1/1.jpg
+2.jpg|C:\Me\SBU\Project\Bookid\assets\Images\book1/2.jpg
+22.jpg|C:\Me\SBU\Project\Bookid\assets\Images\book1/22.jpg
+23.jpg|C:\Me\SBU\Project\Bookid\assets\Images\book1/23.jpg
