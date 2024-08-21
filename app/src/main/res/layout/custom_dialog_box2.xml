@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_book"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Close Button -->
+    <ImageView
+        android:id="@+id/close_button"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="end"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/close" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arrow_back"
+            android:background="?android:attr/selectableItemBackgroundBorderless"/>
+        />
+        <ImageView
+            android:id="@+id/top_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/book1_unlock"
+            android:contentDescription="Book Cover" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arrow_next"
+            android:background="?android:attr/selectableItemBackgroundBorderless"/>
+    </LinearLayout>
+    <!-- Top Image -->
+
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="من نمی‌خواهم بخوابم!"
+        android:textColor="@color/purple_700"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:fontFamily="@font/digi_madasi_bold"
+        android:layout_gravity="center_horizontal" />
+
+    <!-- Description -->
+    <TextView
+        android:id="@+id/dialog_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="کتاب تصویری «من نمی‌خوام بخوابم!» از مجموعه‌ی «شازده فرفره» داستانی طنز با موضوع بی‌خوابی کودکان است."
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:fontFamily="@font/digi_madasi_bold"
+        android:layout_gravity="center_horizontal" />
+
+    <!-- Summary Text -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <!-- Story Content -->
+    <TextView
+        android:id="@+id/story_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="شازده فرفره دلش نمی‌خواهد بخوابد. اصلاً چرا وقتی آدم شب‌ها خسته نیست باید بخوابد و وقتی صبح‌ها خسته است باید بیدار شود؟ اما اهالی خانه نظر دیگری دارند!  ..."
+        android:textColor="#454545"
+        android:fontFamily="@font/madasi"
+        android:background="@drawable/book_description"
+        android:layout_marginTop="25dp"
+        android:paddingTop="30dp"
+        android:paddingHorizontal="12dp"
+        android:paddingBottom="12dp"
+        android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/dialog_summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="خلاصه‌ی داستان:"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="12dp"
+            android:fontFamily="@font/digi_madasi_bold"
+            android:layout_gravity="end"
+            android:background="@drawable/summary_box"
+            android:padding="9dp"/>
+    </FrameLayout>
+
+    <!-- Play Button -->
+    <ImageView
+        android:id="@+id/play_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/play"
+        android:contentDescription="Play" />
+
+</LinearLayout>

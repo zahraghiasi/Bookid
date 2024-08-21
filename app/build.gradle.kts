@@ -65,6 +65,7 @@ dependencies {
     implementation(libs.androidx.appcompat)
     implementation(libs.androidx.media3.common)
     implementation(libs.app.update.ktx)
+    implementation(libs.androidx.cardview)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -85,4 +86,6 @@ dependencies {
     implementation(libs.androidx.runtime.android)
     implementation(libs.androidx.appcompat)
     implementation("com.google.ar:core:1.45.0")
+    implementation("com.google.android.material:material:1.2.1")
+    implementation("androidx.cardview:cardview:1.0.0")
 }
