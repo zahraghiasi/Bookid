@@ -26,16 +26,15 @@ class CharacterView : ComponentActivity() {
 
         val backButton = findViewById<ImageButton>(R.id.back_btn)
         backButton.setOnClickListener {
-            Toast.makeText(applicationContext,"You clicked Submit Button.", Toast.LENGTH_SHORT).show()
+//            Toast.makeText(applicationContext,"You clicked Submit Button.", Toast.LENGTH_SHORT).show()
             startActivity(Intent(this, MainActivity::class.java))
             finish();
         }
 
-//        val nextButton = findViewById<ImageButton>(R.id.next_btn)
-//        nextButton.setOnClickListener {
-//                Toast.makeText(applicationContext,"You clicked Submit Button.", Toast.LENGTH_SHORT).show()
-//                startActivity(Intent(this, MainActivity::class.java))
-//                finish();
-//            }
+        val nextButton = findViewById<ImageButton>(R.id.next_btn)
+        nextButton.setOnClickListener {
+                startActivity(Intent(this, ShazdeCollectionsActivity::class.java))
+                finish();
+            }
     }
 }

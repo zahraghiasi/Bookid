@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.Bookid" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.Bookid" parent="android:Theme.Material.Light.NoActionBar"/>
+
+    <style name="Theme.splashScreen" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@drawable/splash_image</item>
+        <item name="android:statusBarColor">@color/blue_200</item>
+
+    </style>
+
 </resources>

@@ -13,4 +13,10 @@
     <string name="title_activity_shazde_collections">ShazdeCollectionsActivity</string>
     <string name="book1_name">من نمی‌خوام بخوابم!</string>
     <string name="book1_image">book1_image</string>
+    <string name="book2_image">باشه میگم لطفا!</string>
+    <string name="book2_name">باشه میگم لطفا!</string>
+    <string name="book3_name">من دنبال دوست میگردم!</string>
+    <string name="book4_name">وای حالم بده!</string>
+    <string name="book5_name">می‌خواهم برنده شوم!</string>
+    <string name="book6_name">دندانم را می‌خواهم!</string>
 </resources>
