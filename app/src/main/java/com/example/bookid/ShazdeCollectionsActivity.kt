@@ -23,8 +23,6 @@ import com.example.bookid.ui.theme.BookidTheme
 
 class ShazdeCollectionsActivity : ComponentActivity() {
 
-//    var dialog = Dialog(this)
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sahzdeh_collections)
@@ -36,13 +34,19 @@ class ShazdeCollectionsActivity : ComponentActivity() {
         }
 
         val dialog = Dialog(this)
+        dialog.setContentView(R.layout.custom_dialog_box2)
+        dialog.window?.setLayout(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT)
+        dialog.window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
+        dialog.setCancelable(false)
         val btnShowDialog = findViewById<ImageButton>(R.id.bookBox1)
+        val closebtn: ImageButton = dialog.findViewById(R.id.close_button)
+        
         btnShowDialog.setOnClickListener {
-            Toast.makeText(applicationContext, "hey", Toast.LENGTH_SHORT).show()
-            dialog.setContentView(R.layout.custom_dialog_box2)
-            dialog.window?.setLayout(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT)
-            dialog.window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
             dialog.show()
+
+            closebtn.setOnClickListener(){
+                dialog.dismiss();
+            }
         }
 
     }
