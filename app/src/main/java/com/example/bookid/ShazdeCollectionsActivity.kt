@@ -1,7 +1,12 @@
 package com.example.bookid
 
+import android.app.Dialog
 import android.content.Intent
+import android.graphics.Color
+import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
+import android.view.View
+import android.view.ViewGroup
 import android.widget.ImageButton
 import android.widget.Toast
 import androidx.activity.ComponentActivity
@@ -17,6 +22,9 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.example.bookid.ui.theme.BookidTheme
 
 class ShazdeCollectionsActivity : ComponentActivity() {
+
+//    var dialog = Dialog(this)
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sahzdeh_collections)
@@ -26,5 +34,16 @@ class ShazdeCollectionsActivity : ComponentActivity() {
             startActivity(Intent(this, CharacterView::class.java))
             finish();
         }
+
+        val dialog = Dialog(this)
+        val btnShowDialog = findViewById<ImageButton>(R.id.bookBox1)
+        btnShowDialog.setOnClickListener {
+            Toast.makeText(applicationContext, "hey", Toast.LENGTH_SHORT).show()
+            dialog.setContentView(R.layout.custom_dialog_box2)
+            dialog.window?.setLayout(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT)
+            dialog.window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
+            dialog.show()
+        }
+
     }
 }

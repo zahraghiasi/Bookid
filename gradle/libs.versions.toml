@@ -37,7 +37,6 @@ androidx-runtime-android = { group = "androidx.compose.runtime", name = "runtime
 androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 androidx-media3-common = { group = "androidx.media3", name = "media3-common", version.ref = "media3Common" }
 app-update-ktx = { group = "com.google.android.play", name = "app-update-ktx", version.ref = "appUpdateKtx" }
-androidx-cardview = { group = "androidx.cardview", name = "cardview", version.ref = "cardview" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

@@ -1,56 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<FrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@drawable/dialog_book"
+    android:id="@+id/framelayout">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/inner_context"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:background="@drawable/dialog_book"
+    android:layout_marginTop="65dp"
+    android:layout_marginHorizontal="15dp"
+    android:paddingTop="105dp"
+    android:paddingBottom="12dp"
+    android:paddingHorizontal="12dp"
+    android:layout_marginBottom="30dp">
 
-    <!-- Close Button -->
-    <ImageView
-        android:id="@+id/close_button"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:layout_gravity="end"
-        android:layout_marginBottom="8dp"
-        android:src="@drawable/close" />
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:layout_gravity="center_horizontal">
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/arrow_back"
-            android:background="?android:attr/selectableItemBackgroundBorderless"/>
-        />
-        <ImageView
-            android:id="@+id/top_image"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_gravity="center_horizontal"
-            android:src="@drawable/book1_unlock"
-            android:contentDescription="Book Cover" />
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/arrow_next"
-            android:background="?android:attr/selectableItemBackgroundBorderless"/>
-    </LinearLayout>
-    <!-- Top Image -->
-
-
-    <!-- Title -->
     <TextView
         android:id="@+id/dialog_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        android:text="من نمی‌خواهم بخوابم!"
+        android:text="من نمی‌خوام بخوابم!"
         android:textColor="@color/purple_700"
         android:textSize="18sp"
         android:textStyle="bold"
@@ -58,7 +32,18 @@
         android:fontFamily="@font/digi_madasi_bold"
         android:layout_gravity="center_horizontal" />
 
-    <!-- Description -->
+    <TextView
+        android:id="@+id/summary_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="۲۴ صفحه                  |                 نشر نردبان                 |                 گروه سنی ب"
+        android:textColor="@color/gray_500"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:fontFamily="@font/digi_madasi_bold"
+        android:layout_gravity="center_horizontal" />
+
     <TextView
         android:id="@+id/dialog_description"
         android:layout_width="wrap_content"
@@ -109,13 +94,61 @@
             android:padding="9dp"/>
     </FrameLayout>
 
-    <!-- Play Button -->
-    <ImageView
-        android:id="@+id/play_button"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_gravity="center_horizontal"
-        android:src="@drawable/play"
-        android:contentDescription="Play" />
-
 </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal">
+        <ImageButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:id="@+id/arrow_left"
+            android:contentDescription="@string/left_button"
+            android:src="@drawable/arrow_back"
+            android:background="?android:attr/selectableItemBackgroundBorderless"/>
+        />
+        <ImageView
+            android:id="@+id/top_image"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/book1_unlock"
+            android:contentDescription="Book Cover" />
+        <ImageButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:id="@+id/arrow_right"
+            android:src="@drawable/arrow_next"
+            android:contentDescription="@string/right_button"
+            android:background="?android:attr/selectableItemBackgroundBorderless"/>
+    </LinearLayout>
+    <ImageButton
+        android:id="@+id/close_button"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="end"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/close"
+        android:layout_marginTop="50dp"
+        android:contentDescription="@string/close_button"
+        android:background="?android:attr/selectableItemBackgroundBorderless" />/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        >
+        <ImageButton
+            android:id="@+id/play_button"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:padding="10dp"
+            android:src="@drawable/play"
+            android:contentDescription="@string/play_button"
+            android:background="?android:attr/selectableItemBackgroundBorderless" />
+
+    </LinearLayout>
+
+</FrameLayout>

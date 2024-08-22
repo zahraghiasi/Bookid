@@ -19,4 +19,8 @@
     <string name="book4_name">وای حالم بده!</string>
     <string name="book5_name">می‌خواهم برنده شوم!</string>
     <string name="book6_name">دندانم را می‌خواهم!</string>
+    <string name="close_button">Close Button</string>
+    <string name="play_button">Play</string>
+    <string name="left_button">Left Button</string>
+    <string name="right_button">Right Button</string>
 </resources>
