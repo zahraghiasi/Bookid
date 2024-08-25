@@ -45,9 +45,11 @@
 
         <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp">
 
             <ImageButton
+                android:id="@+id/ar_option"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="?android:attr/selectableItemBackgroundBorderless"
@@ -75,14 +77,16 @@
         </FrameLayout>
         <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:layout_marginBottom="15dp">
 
             <ImageButton
+                android:id="@+id/padcast_option"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="?android:attr/selectableItemBackgroundBorderless"
-                android:contentDescription="AR_option"
-                android:src="@drawable/ar" />
+                android:contentDescription="@string/padcast_option"
+                android:src="@drawable/padcast" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -108,11 +112,12 @@
             android:layout_height="match_parent">
 
             <ImageButton
+                android:id="@+id/game_option"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="?android:attr/selectableItemBackgroundBorderless"
-                android:contentDescription="AR_option"
-                android:src="@drawable/ar" />
+                android:contentDescription="@string/game_option"
+                android:src="@drawable/game" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

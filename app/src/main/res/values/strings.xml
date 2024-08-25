@@ -23,4 +23,6 @@
     <string name="play_button">Play</string>
     <string name="left_button">Left Button</string>
     <string name="right_button">Right Button</string>
+    <string name="game_option">game_option</string>
+    <string name="padcast_option">padcast_option</string>
 </resources>

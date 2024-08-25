@@ -40,9 +40,16 @@ class ShazdeCollectionsActivity : ComponentActivity() {
         dialog.setCancelable(false)
         val btnShowDialog = findViewById<ImageButton>(R.id.bookBox1)
         val closebtn: ImageButton = dialog.findViewById(R.id.close_button)
+        val playbtn: ImageButton = dialog.findViewById(R.id.play_button)
         
         btnShowDialog.setOnClickListener {
             dialog.show()
+
+            playbtn.setOnClickListener(){
+                dialog.dismiss();
+                startActivity(Intent(this, MediaSelectionActivity::class.java))
+                finish();
+            }
 
             closebtn.setOnClickListener(){
                 dialog.dismiss();
