@@ -49,95 +49,64 @@
             android:layout_marginBottom="10dp">
 
             <ImageButton
-                android:id="@+id/ar_option"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:src="@drawable/coloring"
                 android:background="?android:attr/selectableItemBackgroundBorderless"
-                android:contentDescription="AR_option"
-                android:src="@drawable/ar" />
+                />
             <TextView
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="واقعیت افزوده"
+                android:text="رنگ‌آمیزی"
+                android:textSize="26dp"
                 android:fontFamily="@font/digi_madasi_bold"
-                android:textColor="@color/purple_500"
-                android:paddingRight="105dp"
-                android:paddingTop="10dp"
-                android:textSize="14sp"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="می‌تونی شازده فرفره رو  سه بعدی و  متحرک ببینی!"
-                android:fontFamily="@font/digi_madasi_bold"
-                android:textColor="@color/gray_300"
-                android:paddingRight="105dp"
-                android:paddingTop="36dp"
-                android:textSize="12sp"/>
-
+                android:textColor="@color/white"
+                android:paddingTop="30dp"
+                android:paddingLeft="65dp" />
         </FrameLayout>
+
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginBottom="15dp">
+            android:layout_marginBottom="10dp">
 
             <ImageButton
-                android:id="@+id/padcast_option"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:src="@drawable/puzzle"
                 android:background="?android:attr/selectableItemBackgroundBorderless"
-                android:contentDescription="@string/padcast_option"
-                android:src="@drawable/padcast" />
+                />
             <TextView
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="پادکست + تصویر"
+                android:text="پازل"
+                android:textSize="26dp"
                 android:fontFamily="@font/digi_madasi_bold"
-                android:textColor="@color/purple_500"
-                android:paddingRight="105dp"
-                android:paddingTop="10dp"
-                android:textSize="14sp"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="می‌تونی داستان  شازده فرفره  رو   گوش بدی و ببینی!"
-                android:fontFamily="@font/digi_madasi_bold"
-                android:textColor="@color/gray_300"
-                android:paddingRight="105dp"
-                android:paddingTop="36dp"
-                android:textSize="12sp"/>
-
+                android:textColor="@color/white"
+                android:paddingTop="30dp"
+                android:paddingLeft="65dp" />
         </FrameLayout>
+
         <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp">
 
             <ImageButton
-                android:id="@+id/game_option"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:src="@drawable/jump"
                 android:background="?android:attr/selectableItemBackgroundBorderless"
-                android:contentDescription="@string/game_option"
-                android:src="@drawable/game" />
+                />
             <TextView
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="بازی"
+                android:text="پرش"
+                android:textSize="26dp"
                 android:fontFamily="@font/digi_madasi_bold"
-                android:textColor="@color/purple_500"
-                android:paddingRight="105dp"
-                android:paddingTop="10dp"
-                android:textSize="14sp"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="می‌تونی همراه با  شازده فرفره کلی بازی انجام بدی!"
-                android:fontFamily="@font/digi_madasi_bold"
-                android:textColor="@color/gray_300"
-                android:paddingRight="105dp"
-                android:paddingTop="36dp"
-                android:textSize="12sp"/>
-
+                android:textColor="@color/white"
+                android:paddingTop="30dp"
+                android:paddingLeft="65dp" />
         </FrameLayout>
     </GridLayout>
-
 </RelativeLayout>
