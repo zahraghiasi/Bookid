@@ -1,4 +1,4 @@
-package com.example.bookid.ui.theme;
+package com.example.bookid;
 
 public class MediaSelectionActivity {
 }
