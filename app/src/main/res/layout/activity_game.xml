@@ -73,6 +73,7 @@
             <ImageButton
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:contentDescription="@string/puzzle_option"
                 android:src="@drawable/puzzle"
                 android:background="?android:attr/selectableItemBackgroundBorderless"
                 />

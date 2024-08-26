@@ -25,4 +25,5 @@
     <string name="right_button">Right Button</string>
     <string name="game_option">game_option</string>
     <string name="padcast_option">padcast_option</string>
+    <string name="puzzle_option">puzzle_option</string>
 </resources>
