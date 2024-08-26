@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/purple_100">
+
+    <ImageView
+        android:id="@+id/book_image"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:src="@drawable/book1_0"/>
+    <TextView
+        android:layout_below="@id/book_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="35dp"
+        android:text="من نمی‌خوام بخوابم!"
+        android:fontFamily="@font/madasi"
+        android:textSize="24sp"
+        android:textColor="@color/gray_500"/>
+
+</RelativeLayout>
