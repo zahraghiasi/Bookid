@@ -6,6 +6,7 @@
     android:background="@color/blue_200">
 
     <LinearLayout
+        android:id="@+id/logo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -29,11 +30,11 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/animation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:layout_marginTop="85dp"
-        android:id="@+id/slider"
         >
 
         <com.airbnb.lottie.LottieAnimationView
@@ -46,36 +47,36 @@
 
     </LinearLayout>
 
-    <LinearLayout
-        android:id="@+id/searchEditText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/slider"
-        android:layout_marginTop="22dp"
-        android:gravity="center">
+<!--    <LinearLayout-->
+<!--        android:id="@+id/searchEditText"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/slider"-->
+<!--        android:layout_marginTop="22dp"-->
+<!--        android:gravity="center">-->
 
-        <EditText
-            android:id="@+id/searchBox"
-            android:layout_width="277dp"
-            android:layout_height="50dp"
-            android:background="@drawable/search_box_border"
-            android:layout_marginRight="10dp"
-            android:hint="دنبال چه کتابی می گردی؟"
-            android:textColorHint="#5E5E5E"
-            android:padding="8dp"/>
+<!--        <EditText-->
+<!--            android:id="@+id/searchBox"-->
+<!--            android:layout_width="277dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:background="@drawable/search_box_border"-->
+<!--            android:layout_marginRight="10dp"-->
+<!--            android:hint="دنبال چه کتابی می گردی؟"-->
+<!--            android:textColorHint="#5E5E5E"-->
+<!--            android:padding="8dp"/>-->
 
-        <ImageView
-            android:id="@+id/buttonImage"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:src="@drawable/searchbutton" />
+<!--        <ImageView-->
+<!--            android:id="@+id/buttonImage"-->
+<!--            android:layout_width="50dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:src="@drawable/searchbutton" />-->
 
-    </LinearLayout>
+<!--    </LinearLayout>-->
 
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/searchEditText"
+        android:layout_below="@id/animation"
         android:layout_marginTop="5dp"
         android:columnCount="2"
         android:rowCount="2"
