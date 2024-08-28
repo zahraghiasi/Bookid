@@ -86,4 +86,5 @@ dependencies {
     implementation(libs.androidx.appcompat)
     implementation("com.google.ar:core:1.45.0")
     implementation("com.airbnb.android:lottie:3.4.0")
+    implementation("libs/your-unity-project.aar")
 }
