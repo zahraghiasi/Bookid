@@ -1,28 +1,28 @@
 package com.example.bookid
 
+import android.Manifest
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
-import android.widget.ImageButton
-import android.widget.ImageView
-import android.widget.Toast
+import android.webkit.WebView
+import android.webkit.WebViewClient
 import androidx.activity.ComponentActivity
-import androidx.activity.compose.setContent
-import androidx.activity.enableEdgeToEdge
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
-import com.example.bookid.ui.theme.BookidTheme
-
+import androidx.activity.result.ActivityResultCallback
+import androidx.activity.result.contract.ActivityResultContracts
+import android.os.Build
+import androidx.activity.result.ActivityResultLauncher
+import android.webkit.PermissionRequest
+import android.webkit.WebChromeClient
+import androidx.core.content.ContextCompat
+import androidx.core.app.ActivityCompat
+import android.content.pm.PackageManager
+import android.widget.ImageButton
 
 class MainActivity : ComponentActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
 
         val charbtn1 = findViewById<ImageButton>(R.id.character1)
         charbtn1.setOnClickListener {
@@ -31,4 +31,9 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
+
+
+
+
+
 
