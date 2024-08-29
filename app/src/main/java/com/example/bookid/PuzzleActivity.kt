@@ -1,21 +1,18 @@
 package com.example.bookid
 
-import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.widget.ImageButton
 import androidx.activity.ComponentActivity
 
-class ColoringActivity : ComponentActivity() {
-    @SuppressLint("MissingInflatedId")
+class PuzzleActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_coloring)
+        setContentView(R.layout.activity_puzzle)
 
         val backButton = findViewById<ImageButton>(R.id.back_btn)
         backButton.setOnClickListener {
-//            Toast.makeText(applicationContext,"You clicked Submit Button.", Toast.LENGTH_SHORT).show()
-            startActivity(Intent(this, GameActivity::class.java))
+            startActivity(Intent(this, ShazdeCollectionsActivity::class.java))
             finish();
         }
 

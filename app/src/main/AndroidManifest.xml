@@ -38,6 +38,8 @@
         <activity android:name=".CharacterView"/>
         <activity android:name=".MediaSelectionActivity"/>
         <activity android:name=".GameActivity"/>
+        <activity android:name=".ColoringActivity"/>
+        <activity android:name=".PuzzleActivity"/>
         <activity android:name=".ARCameraActivity"
             android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize"
             android:theme="@style/Theme.AppCompat.NoActionBar"/>

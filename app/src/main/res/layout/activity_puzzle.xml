@@ -4,7 +4,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_gradient_coloring">
+    android:background="@drawable/background_gradient_puzzle">
 
     <RelativeLayout
         android:id="@+id/header"
@@ -41,12 +41,12 @@
         android:layout_below="@id/header"
         android:layout_marginTop="5dp"
         android:columnCount="2"
-        android:rowCount="4"
+        android:rowCount="3"
         android:padding="16dp">
 
         <RelativeLayout
-            android:layout_width="176dp"
-            android:layout_height="150dp"
+            android:layout_width="185dp"
+            android:layout_height="200dp"
             android:gravity="center"
             tools:ignore="UselessParent">
 
@@ -59,13 +59,13 @@
                 android:layout_marginEnd="2dp"
                 android:background="?android:attr/selectableItemBackgroundBorderless"
                 android:contentDescription="@string/book1_image"
-                android:src="@drawable/paint1" />
+                android:src="@drawable/puzzle1" />
 
         </RelativeLayout>
 
         <RelativeLayout
-            android:layout_width="176dp"
-            android:layout_height="150dp"
+            android:layout_width="185dp"
+            android:layout_height="200dp"
             android:gravity="center"
             tools:ignore="UselessParent">
 
@@ -78,12 +78,12 @@
                 android:layout_marginEnd="20dp"
                 android:background="?android:attr/selectableItemBackgroundBorderless"
                 android:contentDescription="@string/book2_image"
-                android:src="@drawable/paint1b" />
+                android:src="@drawable/puzzle2" />
 
         </RelativeLayout>
         <RelativeLayout
-            android:layout_width="176dp"
-            android:layout_height="150dp"
+            android:layout_width="185dp"
+            android:layout_height="200dp"
             android:gravity="center"
             tools:ignore="UselessParent">
 
@@ -96,12 +96,12 @@
                 android:layout_marginEnd="20dp"
                 android:background="?android:attr/selectableItemBackgroundBorderless"
                 android:contentDescription="@string/book3_name"
-                android:src="@drawable/paint2" />
+                android:src="@drawable/puzzle3" />
 
         </RelativeLayout>
         <RelativeLayout
-            android:layout_width="176dp"
-            android:layout_height="150dp"
+            android:layout_width="185dp"
+            android:layout_height="200dp"
             android:gravity="center"
             tools:ignore="UselessParent">
 
@@ -115,12 +115,12 @@
                 android:layout_marginEnd="20dp"
                 android:background="?android:attr/selectableItemBackgroundBorderless"
                 android:contentDescription="@string/book4_name"
-                android:src="@drawable/paint2b" />
+                android:src="@drawable/puzzle4" />
 
         </RelativeLayout>
         <RelativeLayout
-            android:layout_width="176dp"
-            android:layout_height="150dp"
+            android:layout_width="185dp"
+            android:layout_height="200dp"
             android:gravity="center"
             tools:ignore="UselessParent">
 
@@ -133,12 +133,12 @@
                 android:layout_marginEnd="20dp"
                 android:background="?android:attr/selectableItemBackgroundBorderless"
                 android:contentDescription="@string/book5_name"
-                android:src="@drawable/paint3" />
+                android:src="@drawable/puzzle5" />
 
         </RelativeLayout>
         <RelativeLayout
-            android:layout_width="176dp"
-            android:layout_height="150dp"
+            android:layout_width="185dp"
+            android:layout_height="200dp"
             android:gravity="center"
             tools:ignore="UselessParent">
 
@@ -147,47 +147,11 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentEnd="true"
-                android:layout_marginStart="20dp"
-                android:layout_marginEnd="20dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
                 android:background="?android:attr/selectableItemBackgroundBorderless"
                 android:contentDescription="@string/book6_name"
-                android:src="@drawable/paint3b" />
-
-        </RelativeLayout>
-        <RelativeLayout
-            android:layout_width="176dp"
-            android:layout_height="150dp"
-            android:gravity="center"
-            tools:ignore="UselessParent">
-
-            <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentEnd="true"
-                android:layout_marginStart="20dp"
-                android:layout_marginEnd="20dp"
-                android:background="?android:attr/selectableItemBackgroundBorderless"
-                android:contentDescription="@string/book5_name"
-                android:src="@drawable/paint4" />
-
-        </RelativeLayout>
-        <RelativeLayout
-            android:layout_width="176dp"
-            android:layout_height="150dp"
-            android:gravity="center"
-            tools:ignore="UselessParent">
-
-            <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentEnd="true"
-                android:layout_marginStart="20dp"
-                android:layout_marginEnd="20dp"
-                android:background="?android:attr/selectableItemBackgroundBorderless"
-                android:contentDescription="@string/book6_name"
-                android:src="@drawable/paint4b" />
+                android:src="@drawable/puzzle6" />
 
         </RelativeLayout>
 

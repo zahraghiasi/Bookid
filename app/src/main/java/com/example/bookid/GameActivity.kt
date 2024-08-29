@@ -15,5 +15,16 @@ class GameActivity : ComponentActivity() {
             startActivity(Intent(this, ShazdeCollectionsActivity::class.java))
             finish();
         }
+
+        val coloringButton = findViewById<ImageButton>(R.id.coloring)
+        coloringButton.setOnClickListener {
+            startActivity(Intent(this, ColoringActivity::class.java))
+            finish();
+        }
+        val puzzleButton = findViewById<ImageButton>(R.id.puzzle)
+        puzzleButton.setOnClickListener {
+            startActivity(Intent(this, PuzzleActivity::class.java))
+            finish();
+        }
     }
 }
