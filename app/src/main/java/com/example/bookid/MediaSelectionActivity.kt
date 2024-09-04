@@ -22,11 +22,11 @@ class MediaSelectionActivity : ComponentActivity() {
             finish();
         }
 
-//        val podcastButton = findViewById<ImageButton>(R.id.padcast_option)
-//        arButton.setOnClickListener {
-//            startActivity(Intent(this, ShazdeCollectionsActivity::class.java))
-//            finish();
-//        }
+        val podcastButton = findViewById<ImageButton>(R.id.padcast_option)
+        podcastButton.setOnClickListener {
+            startActivity(Intent(this, PodcastActivity::class.java))
+            finish();
+        }
 
         val gameButton = findViewById<ImageButton>(R.id.game_option)
         gameButton.setOnClickListener {
