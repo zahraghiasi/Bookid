@@ -89,9 +89,19 @@
 
     </RelativeLayout>
         <ImageButton
+            android:id="@+id/pouse_btn"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:visibility="invisible"
+            android:contentDescription="@string/next_button"
+            android:src="@drawable/pouse_btn"
+            android:layout_gravity="center"
+            android:background="?android:attr/selectableItemBackgroundBorderless" />
+        <ImageButton
             android:id="@+id/play_btn"
             android:layout_width="70dp"
             android:layout_height="70dp"
+            android:visibility="visible"
             android:contentDescription="@string/next_button"
             android:src="@drawable/play"
             android:layout_gravity="center"
