@@ -4,7 +4,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_gradient_coloring">
+    android:background="@color/blue_200">
 
     <RelativeLayout
         android:id="@+id/header"
@@ -42,7 +42,8 @@
         android:layout_marginTop="5dp"
         android:columnCount="2"
         android:rowCount="4"
-        android:padding="16dp">
+        android:padding="16dp"
+        android:background="@drawable/coloring_background">
 
         <RelativeLayout
             android:layout_width="176dp"
