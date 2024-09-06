@@ -38,6 +38,12 @@ class PodcastActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_podcast)
 
+        val backButton = findViewById<ImageButton>(R.id.back_btn)
+        backButton.setOnClickListener {
+            startActivity(Intent(this, MediaSelectionActivity::class.java))
+            finish();
+        }
+
         imageView = findViewById(R.id.imageView)
         pageNumberTextView = findViewById(R.id.pageNumberTextView)
         textView = findViewById(R.id.textView)

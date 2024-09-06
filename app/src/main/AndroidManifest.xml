@@ -41,6 +41,7 @@
         <activity android:name=".ColoringActivity"/>
         <activity android:name=".PuzzleActivity"/>
         <activity android:name=".PodcastActivity"/>
+        <activity android:name=".JumpActivity"/>
         <activity android:name=".ARCameraActivity"
             android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize"
             android:theme="@style/Theme.AppCompat.NoActionBar"/>

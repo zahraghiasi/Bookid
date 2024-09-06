@@ -96,6 +96,7 @@
             android:layout_marginBottom="10dp">
 
             <ImageButton
+                android:id="@+id/jump"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:src="@drawable/jump"

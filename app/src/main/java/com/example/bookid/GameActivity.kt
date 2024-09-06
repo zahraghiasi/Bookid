@@ -12,7 +12,7 @@ class GameActivity : ComponentActivity() {
 
         val backButton = findViewById<ImageButton>(R.id.back_btn)
         backButton.setOnClickListener {
-            startActivity(Intent(this, ShazdeCollectionsActivity::class.java))
+            startActivity(Intent(this, MediaSelectionActivity::class.java))
             finish();
         }
 
@@ -24,6 +24,12 @@ class GameActivity : ComponentActivity() {
         val puzzleButton = findViewById<ImageButton>(R.id.puzzle)
         puzzleButton.setOnClickListener {
             startActivity(Intent(this, PuzzleActivity::class.java))
+            finish();
+        }
+
+        val jumpButton = findViewById<ImageButton>(R.id.jump)
+        jumpButton.setOnClickListener {
+            startActivity(Intent(this, JumpActivity::class.java))
             finish();
         }
     }
